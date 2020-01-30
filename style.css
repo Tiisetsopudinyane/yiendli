@@ -1,0 +1,87 @@
+body{
+  //background-color: #4D1900;
+  background-color: #993300;
+  color: white;
+  font-family: arial;
+}
+header{
+  background-color: #4D2600;
+  color: white;
+  border-bottom: 5px solid #FF0000;
+  text-align: center;
+}
+.containing{
+  width:100%;
+  overflow:hidden;
+}
+.spanning{
+  color: #FF5500;
+}
+header .topdiv{
+  margin-top: 10px;
+}
+nav{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+header a{
+  display: inline;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+header li{
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header .home a{
+  color: #FF5500;
+  font-weight: bold;
+}
+section .sectiondiv{
+  color: white;
+  min-height: 300px;
+  background:url('./img/backgroundpic.jpg') no-repeat 0 -400px;
+  text-align:center;
+  font-family:oblique;
+}
+/*this is for service class*/
+section .sectiondi{
+  color: black;
+  min-height: 300px;
+  background:url('./img/backpic.jpg') no-repeat 0 -400px;
+  text-align:center ;
+  font-family: oblique;
+}
+#container .box{
+  width:100%;
+  padding: 10px;
+}
+/*container box image*/
+#container .box img{
+  padding:15px;
+  height: 150px;
+  width:150px;
+}
+#boxes{
+  margin-top: 20px;
+}
+/*SERVICES BOX*/
+.servicesbox{
+  border-radius: 4px;
+  border-color:#5c1f00;
+  background-color: #c74300;
+}
+footer{
+  background-color:#4D2600;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding:15px;
+  min-height:10px;
+}
