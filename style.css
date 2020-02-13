@@ -1,11 +1,11 @@
 body{
   //background-color: #4D1900;
-  background-color: #aab693;
+  background:linear-gradient(#66CC33,#99CC66,#aab693);
   color: black;
   font-family: Times New Roman;
 }
 header{
-  background-color: #72720e;
+  background:linear-gradient(#99FFCC, #72720e);
   color: black;
   border-bottom: 5px solid #d8d0d0;
   text-align: center;
@@ -42,7 +42,7 @@ header li{
   padding: 0 20px 0 20px;
 }
 header .home a{
-  color: #FF5500;
+  color: #003366;/*,#FF5500;*/
   font-weight: bold;
 }
 section .sectiondiv{
